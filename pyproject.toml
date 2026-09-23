@@ -1,0 +1,7 @@
+[project]
+name = "pet-project-dbt-from-zero"
+version = "0.1.0"
+description = "dbt practice"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
