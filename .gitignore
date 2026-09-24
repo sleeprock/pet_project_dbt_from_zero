@@ -1,6 +1,7 @@
 target/
 dbt_packages/
 logs/
+clickhouse_project/profiles.yml
 .venv/
 .env
 *.log

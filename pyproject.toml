@@ -4,4 +4,6 @@ version = "0.1.0"
 description = "dbt practice"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "dbt-clickhouse>=1.10.3",
+]
