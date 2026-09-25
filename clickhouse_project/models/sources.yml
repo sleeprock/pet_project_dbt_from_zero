@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: ecommerce_raw
+    description: "Сырой слой хранилища. Данные интернет-магазина, загруженные из файлов Hugging Face."
+    database: raw # Имя базы данных (схемы) в ClickHouse
+
+    tables:
+      - name: ecommerce__users
+        description: "Сырой слой. Пользователи ecommerce."
+
+      - name: ecommerce__orders
+        description: "Сырой слой. Заказы ecommerce."
+
+      - name: ecommerce__distribution_centers
+        description: "Сырой слой. Распределительные центры и склады, с которых осуществляется отгрузка товаров"
+
+      - name:  ecommerce__order_items
+        description: "Сырой слой. Товары, входящие в состав заказов"
+
+      - name: ecommerce__products
+        description: "Сырой слой. Каталог товаров."
